@@ -1,5 +1,6 @@
 import os
 
-print(os.get_exec_path(0))
+# we are using os model to track directories
+print(os.listdir())
 
-print(os.add_dll_directory(0))
+print(os.getcwd(0))
